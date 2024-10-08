@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  width: 430px;
+  height: 932px;
+  background-color: #091723;
+  padding: 20px;
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.intro {
+  margin-top: 24px;
+  font-size: 32px;
+  color: rgba(255, 255, 255, 1);
+  font-style: italic;
+}
+
+.names {
+  color: #17D6E3;
+  font-weight: 700px;
+  font-style: italic;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #E83939;
+  font-style: italic;
+}
+
+.circle {
+  margin-top: 10px;
+}
+
+.profile {
+  width: 212px;
+  height: 227px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.white {
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  width: 257.14px;
+  height: 252.48px;
+  margin-bottom: 45px;
+}
+
+.aqua {
+  background-color: #03D9FF;
+  width: 250px;
+  height: 227px;
+  border-radius: 50%;
+  border: solid #FFFFFF;
+}
+
+.contact, .address, .gmail {
+  margin-top: 15px;
+}
+
+.fa-phone, .fa-home, .fa-envelope {
+  color: #237FF8;
+}
+
+.number, .home, .email {
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 30px;
+  margin-top: -18px;
+}
+
+.main-container, .Subjects {
+  background-color: rgba(230, 204, 233, 1);
+  border-radius: 14px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.skill-container {
+  margin-bottom: 20px;
+}
+
+.skill-title {
+  font-weight: bold;
+  font-size: 10px;
+  padding-left: 8px;
+  color: #5F2B2B;
+}
+
+.skill-bar {
+  width: 100%;
+  background-color: #000000;
+  margin-top: -6.5px;
+}
+
+.skill-level {
+  height: 10px;
+}
+
+.skill-html { width: 50%; background-color: #1660FF; }
+.skill-css { width: 40%; background-color: #1660FF; }
+.skill-js { width: 30%; background-color: #1660FF; }
+.skill-bootsrap { width: 30%; background-color: #1660FF; }
+.skill-php { width: 30%; background-color: #1660FF; }
+
+.major {
+  font-size: 11px;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 52px;
+  color: #1660FF;
+}
+
+.first, .second, .third {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 12px;
+  color: #9C0707;
+}
+
+.programming, .networking1, .networking2 {
+  color: #676D35;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+  }
+
+  .main {
+    width: 100%;
+    height: auto;
+  }
+
+  .profile {
+    width: 180px;
+    height: 190px;
+  }
+
+  .white {
+    width: 190px;
+    height: 190px;
+  }
+
+  .aqua {
+    width: 180px;
+    height: 180px;
+  }
+
+  .intro {
+    font-size: 28px;
+  }
+
+  .names {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .main-container, .Subjects {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .skill-title, .skills, .major {
+    font-size: 10px;
+  }
+
+  .number, .home, .email {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .profile {
+    width: 150px;
+    height: 150px;
+  }
+
+  .white {
+    width: 160px;
+    height: 160px;
+  }
+
+  .aqua {
+    width: 150px;
+    height: 150px;
+  }
+
+  .intro {
+    font-size: 24px;
+  }
+
+  .names {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .skill-title, .skills, .major {
+    font-size: 9px;
+  }
+
+  .number, .home, .email {
+    font-size: 12px;
+  }
+}
